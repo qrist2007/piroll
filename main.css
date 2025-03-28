@@ -1,0 +1,68 @@
+:root{
+    --accent-color: #10C9C3;
+    --primary-color:#212529;
+--light-color:
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Montserrat",sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 94%;
+    height: 100%;
+    max-width: 1600px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.main {
+height: 100vh;
+
+
+}
+.main_wrap{
+display: flex;
+justify-content: end;
+align-items: center;
+height: 100%;
+
+}
+
+.main_block{
+width: 50%;
+
+
+}
+.main_heading{
+font-weight: 500;
+font-size: 32px;
+color: var(--primary-color);
+
+}
+.main_text{
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.main_button{
+    padding: 12px 36px;
+    text-transform: uppercase;
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background: var(--accent-color);
+    border: none;
+    
+
+}
